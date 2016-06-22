@@ -3,12 +3,12 @@
 A simple color scheme for Vim, inspired by Jellybeans and Tomorrow Night.
 
 ## The Palette
-![alt tag](https://raw.githubusercontent.com/dcapo/friendly-colors/master/friendly.png)
+![alt tag](https://raw.githubusercontent.com/dcapo/friendly-colors/master/images/friendly.png)
 
 ## Screenshots
-![alt tag](https://raw.githubusercontent.com/dcapo/friendly-colors/master/friendly_screenshot_0.png)
-![alt tag](https://raw.githubusercontent.com/dcapo/friendly-colors/master/friendly_screenshot_1.png)
-![alt tag](https://raw.githubusercontent.com/dcapo/friendly-colors/master/friendly_screenshot_2.png)
+![alt tag](https://raw.githubusercontent.com/dcapo/friendly-colors/master/images/screenshots/friendly_screenshot_0.png)
+![alt tag](https://raw.githubusercontent.com/dcapo/friendly-colors/master/images/screenshots/friendly_screenshot_1.png)
+![alt tag](https://raw.githubusercontent.com/dcapo/friendly-colors/master/images/screenshots/friendly_screenshot_2.png)
 
 ## Installation
 
