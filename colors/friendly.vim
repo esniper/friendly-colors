@@ -18,7 +18,7 @@ hi MatchParen               guifg=#d2d2d2   guibg=#2e2e2e   guisp=#2e2e2e   gui=
 hi WildMenu                 guifg=#d2d2d2   guibg=#4d545c   guisp=NONE      gui=NONE        ctermfg=253     ctermbg=239     cterm=NONE
 hi StatusLine               guifg=#d2d2d2   guibg=#191c21   guisp=#191c21   gui=italic      ctermfg=253     ctermbg=234     cterm=NONE
 hi Search                   guifg=#d2d2d2   guibg=#3f3e47   guisp=#3f3e47   gui=underline   ctermfg=253     ctermbg=237     cterm=underline
-hi TabLineSel               guifg=#d2d2d2   guibg=#3f3e47   guisp=#3f3e47   gui=italic      ctermfg=253     ctermbg=237     cterm=NONE
+hi TabLineSel               guifg=#d2d2d2   guibg=#24262b   guisp=#24262b   gui=NONE        ctermfg=253     ctermbg=235     cterm=NONE
 hi PMenuSel                 guifg=#d2d2d2   guibg=#45464d   guisp=#45464d   gui=NONE        ctermfg=253     ctermbg=239     cterm=NONE
 hi Special                  guifg=#d2d2d2   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=253     ctermbg=NONE    cterm=NONE
 hi SpecialChar              guifg=#d2d2d2   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=253     ctermbg=NONE    cterm=NONE
@@ -28,8 +28,8 @@ hi Comment                  guifg=#888888   guibg=NONE      guisp=NONE      gui=
 hi SpecialComment           guifg=#888888   guibg=NONE      guisp=NONE      gui=italic      ctermfg=102     ctermbg=NONE    cterm=italic
 hi Todo                     guifg=#888888   guibg=NONE      guisp=NONE      gui=bold        ctermfg=102     ctermbg=NONE    cterm=bold
 hi StatusLineNC             guifg=#888888   guibg=#191c21   guisp=#191c21   gui=italic      ctermfg=102     ctermbg=234     cterm=NONE
-hi TabLine                  guifg=#888888   guibg=#191c21   guisp=#191c21   gui=italic      ctermfg=102     ctermbg=234     cterm=NONE
-hi TabLineFill              guifg=#888888   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=247     ctermbg=NONE    cterm=NONE
+hi TabLine                  guifg=#888888   guibg=#191c21   guisp=#191c21   gui=NONE        ctermfg=102     ctermbg=234     cterm=NONE
+hi TabLineFill              guifg=#888888   guibg=#191c21   guisp=NONE      gui=NONE        ctermfg=247     ctermbg=234     cterm=NONE
 hi SpecialKey               guifg=#888888   guibg=#343434   guisp=#343434   gui=NONE        ctermfg=102     ctermbg=236     cterm=NONE
 hi SignColumn               guifg=#a0a8b0   guibg=#384048   guisp=#384048   gui=NONE        ctermfg=145     ctermbg=238     cterm=NONE
 hi Folded                   guifg=#a0a8b0   guibg=#384048   guisp=#384048   gui=italic      ctermfg=145     ctermbg=238     cterm=NONE
