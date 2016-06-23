@@ -29,6 +29,7 @@ hi SpecialComment           guifg=#888888   guibg=NONE      guisp=NONE      gui=
 hi Todo                     guifg=#888888   guibg=NONE      guisp=NONE      gui=bold        ctermfg=102     ctermbg=NONE    cterm=bold
 hi StatusLineNC             guifg=#888888   guibg=#191c21   guisp=#191c21   gui=italic      ctermfg=102     ctermbg=234     cterm=NONE
 hi TabLine                  guifg=#888888   guibg=#191c21   guisp=#191c21   gui=italic      ctermfg=102     ctermbg=234     cterm=NONE
+hi TabLineFill              guifg=#888888   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=247     ctermbg=NONE    cterm=NONE
 hi SpecialKey               guifg=#888888   guibg=#343434   guisp=#343434   gui=NONE        ctermfg=102     ctermbg=236     cterm=NONE
 hi SignColumn               guifg=#a0a8b0   guibg=#384048   guisp=#384048   gui=NONE        ctermfg=145     ctermbg=238     cterm=NONE
 hi Folded                   guifg=#a0a8b0   guibg=#384048   guisp=#384048   gui=italic      ctermfg=145     ctermbg=238     cterm=NONE
@@ -83,7 +84,6 @@ hi DiffAdd                  guifg=NONE      guibg=#032218   guisp=#032218   gui=
 hi DiffDelete               guifg=#3b0606   guibg=#240404   guisp=#240404   gui=NONE        ctermfg=52      ctermbg=52      cterm=NONE
 hi DiffChange               guifg=NONE      guibg=#100920   guisp=#100920   gui=NONE        ctermfg=NONE    ctermbg=234     cterm=NONE
 hi LineNr                   guifg=#605958   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=240     ctermbg=NONE    cterm=NONE
-hi TabLineFill              guifg=#9098a0   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=247     ctermbg=NONE    cterm=NONE
 hi CursorColumn             guifg=NONE      guibg=#202021   guisp=#202021   gui=NONE        ctermfg=NONE    ctermbg=235     cterm=NONE
 hi Visual                   guifg=NONE      guibg=#404040   guisp=#404040   gui=NONE        ctermfg=NONE    ctermbg=238     cterm=NONE
 hi VertSplit                guifg=#181818   guibg=#181818   guisp=#181818   gui=italic      ctermfg=234     ctermbg=234     cterm=NONE
