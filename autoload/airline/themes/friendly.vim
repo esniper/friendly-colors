@@ -23,7 +23,6 @@ let s:ctermBlue = "25"
 let s:ctermRed = "131"
 let s:ctermYellow = "223"
 
-
 let g:airline#themes#friendly#palette = {}
 let s:modified = { 'airline_c': [ s:guiYellow, '', s:ctermYellow, '', '' ] }
 

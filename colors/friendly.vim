@@ -35,7 +35,6 @@ hi SignColumn               guifg=#a0a8b0   guibg=#384048   guisp=#384048   gui=
 hi Folded                   guifg=#a0a8b0   guibg=#384048   guisp=#384048   gui=italic      ctermfg=145     ctermbg=238     cterm=NONE
 hi FoldColumn               guifg=#a0a8b0   guibg=#384048   guisp=#384048   gui=NONE        ctermfg=145     ctermbg=238     cterm=NONE
 
-
 "Blue"
 hi Statement                guifg=#7996c9   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=67     ctermbg=NONE    cterm=NONE
 hi Conditional              guifg=#7996c9   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=67     ctermbg=NONE    cterm=NONE
