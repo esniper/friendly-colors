@@ -1,78 +1,63 @@
  "Color palette
-let s:gui00 = "#191c21"
-let s:gui01 = "#24262b"
-let s:gui02 = "#5f6b76"
-let s:gui03 = "#65737e"
-let s:gui04 = "#a7adba"
-let s:gui05 = "#c0c5ce"
-let s:gui06 = "#cdd3de"
-let s:gui07 = "#d6d6d6"
-let s:gui08 = "#454A9F"
-let s:gui09 = "#f99157"
-let s:gui0A = "#fac863"
-let s:gui0B = "#0A7D70"
-let s:gui0C = "#5fb3b3"
-let s:gui0D = "#31639F"
-let s:gui0E = "#A34847"
-let s:gui0F = "#ab7967"
+let s:guiWhite = "#d2d2d2"
+let s:guiWhite1 = "#c0c5ce"
+let s:guiGray0 = "#5f6b76"
+let s:guiGray1 = "#65737e"
+let s:guiBlack0 = "#191c21"
+let s:guiBlack1 = "#24262b"
+let s:guiPurple = "#454A9F"
+let s:guiGreen = "#0A7D70"
+let s:guiBlue = "#31639F"
+let s:guiRed = "#A34847"
+let s:guiYellow = "#E0CCA2"
 
-let s:cterm00 = "234"
-let s:cterm01 = "235"
-let s:cterm02 = "59"
-let s:cterm03 = "66"
-let s:cterm04 = "145"
-let s:cterm05 = "152"
-let s:cterm06 = "188"
-let s:cterm07 = "253"
-let s:cterm08 = "61"
-let s:cterm09 = "209"
-let s:cterm0A = "221"
-let s:cterm0B = "23"
-let s:cterm0C = "73"
-let s:cterm0D = "25"
-let s:cterm0E = "131"
-let s:cterm0F = "137"
+let s:ctermWhite = "253"
+let s:ctermWhite1 = "152"
+let s:ctermGray0 = "59"
+let s:ctermGray1 = "66"
+let s:ctermBlack0 = "234"
+let s:ctermBlack1 = "235"
+let s:ctermPurple = "61"
+let s:ctermGreen = "23"
+let s:ctermBlue = "25"
+let s:ctermRed = "131"
 
-let s:guiWhite = "#ffffff"
-let s:guiGray = "#666666"
-let s:ctermWhite = "231"
-let s:ctermGray = "243"
 
 let g:airline#themes#friendly#palette = {}
-let s:modified = { 'airline_c': [ '#ffb964', '', 215, '', '' ] }
+let s:modified = { 'airline_c': [ s:guiYellow, '', s:ctermYellow, '', '' ] }
 
 " Normal mode
-let s:N1 = [ s:guiWhite , s:gui0D , s:cterm07 , s:cterm0D  ]
-let s:N2 = [ s:gui05 , s:gui01 , s:cterm05 , s:cterm01  ]
-let s:N3 = [ s:gui03 , s:gui00 , s:cterm03 , s:cterm00  ]
+let s:N1 = [ s:guiWhite , s:guiBlue , s:ctermWhite , s:ctermBlue  ]
+let s:N2 = [ s:guiWhite1 , s:guiBlack1 , s:cterm05 , s:ctermBlack1  ]
+let s:N3 = [ s:guiGray1 , s:guiBlack0 , s:ctermGray1 , s:ctermBlack0  ]
 let g:airline#themes#friendly#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 let g:airline#themes#friendly#palette.normal_modified = s:modified
 
 " Insert mode
-let s:I1 = [ s:guiWhite , s:gui0B , s:ctermWhite , s:cterm0B  ]
+let s:I1 = [ s:guiWhite , s:guiGreen , s:ctermWhite , s:ctermGreen  ]
 let s:I2 = s:N2
-let s:I3 = [ s:gui07 , s:gui00 , s:cterm07 , s:cterm00  ]
+let s:I3 = [ s:guiWhite , s:guiBlack0 , s:ctermWhite , s:ctermBlack0  ]
 let g:airline#themes#friendly#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
 let g:airline#themes#friendly#palette.insert_modified = s:modified
 
 " Visual mode
-let s:V1 = [ s:guiWhite , s:gui08 , s:ctermWhite , s:cterm08 ]
+let s:V1 = [ s:guiWhite , s:guiPurple , s:ctermWhite , s:ctermPurple ]
 let s:V2 = s:N2
 let s:V3 = s:I3
 let g:airline#themes#friendly#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
 let g:airline#themes#friendly#palette.visual_modified = s:modified
 
 " Replace mode
-let s:R1 = [ s:guiWhite , s:gui0E , s:ctermWhite, s:cterm0E ]
+let s:R1 = [ s:guiWhite , s:guiRed , s:ctermWhite, s:ctermRed ]
 let s:R2 = s:N2
 let s:R3 = s:I3
 let g:airline#themes#friendly#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
 let g:airline#themes#friendly#palette.replace_modified = s:modified
 
 " Inactive mode
-let s:IN1 = [ s:guiGray , s:gui01 , s:ctermGray , s:cterm01 ]
-let s:IN2 = [ s:gui02 , s:gui00 , s:cterm02 , s:cterm00 ]
-let s:IN3 = [ s:gui02 , s:gui00 , s:cterm02 , s:cterm00 ]
+let s:IN1 = [ s:guiGray1 , s:guiBlack1 , s:ctermGray1 , s:ctermBlack1 ]
+let s:IN2 = [ s:guiGray0 , s:guiBlack0 , s:ctermGray0 , s:ctermBlack0 ]
+let s:IN3 = [ s:guiGray0 , s:guiBlack0 , s:ctermGray0 , s:ctermBlack0 ]
 let g:airline#themes#friendly#palette.inactive = airline#themes#generate_color_map(s:IN1, s:IN2, s:IN3)
 let g:airline#themes#friendly#palette.inactive_modified = s:modified
 
@@ -81,8 +66,8 @@ if !get(g:, 'loaded_ctrlp', 0)
   finish
 endif
 
-let s:CP1 = [ s:gui03 , s:gui00 , s:cterm03 , s:cterm01  ]
-let s:CP2 = [ s:guiWhite , s:gui03 , s:ctermWhite , s:cterm01  ]
-let s:CP3 = [ s:guiWhite , s:gui0D , s:ctermWhite , s:cterm0D  ]
+let s:CP1 = [ s:guiGray1 , s:guiBlack0 , s:ctermGray1 , s:ctermBlack1  ]
+let s:CP2 = [ s:guiWhite , s:guiGray1 , s:ctermWhite , s:ctermBlack1  ]
+let s:CP3 = [ s:guiWhite , s:guiBlue , s:ctermWhite , s:ctermBlue  ]
 
 let g:airline#themes#friendly#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(s:CP1, s:CP2, s:CP3)
