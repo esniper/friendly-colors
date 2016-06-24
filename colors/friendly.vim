@@ -39,7 +39,6 @@ hi FoldColumn               guifg=#a0a8b0   guibg=#384048   guisp=#384048   gui=
 hi Statement                guifg=#7996c9   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=67     ctermbg=NONE    cterm=NONE
 hi Conditional              guifg=#7996c9   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=67     ctermbg=NONE    cterm=NONE
 hi StorageClass             guifg=#7996c9   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=67     ctermbg=NONE    cterm=NONE
-hi Boolean                  guifg=#7996c9   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=67     ctermbg=NONE    cterm=NONE
 hi Exception                guifg=#7996c9   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=67     ctermbg=NONE    cterm=NONE
 hi Repeat                   guifg=#7996c9   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=67     ctermbg=NONE    cterm=NONE
 hi Delimiter                guifg=#7996c9   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=67     ctermbg=NONE    cterm=NONE
@@ -65,6 +64,7 @@ hi ErrorMsg                 guifg=#d16e6d   guibg=NONE      guisp=#d16e6d   gui=
 hi Character                guifg=#d16e6d   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=174     ctermbg=NONE    cterm=NONE
 hi Number                   guifg=#d16e6d   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=174     ctermbg=NONE    cterm=NONE
 hi Constant                 guifg=#d16e6d   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=174     ctermbg=NONE    cterm=NONE
+hi Boolean                  guifg=#d16e6d   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=174     ctermbg=NONE    cterm=NONE
 
 "Green"
 hi String                   guifg=#75a97e   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=108     ctermbg=NONE    cterm=NONE
