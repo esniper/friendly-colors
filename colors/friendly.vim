@@ -24,8 +24,8 @@ hi Special                  guifg=#d2d2d2   guibg=NONE      guisp=NONE      gui=
 hi SpecialChar              guifg=#d2d2d2   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=253     ctermbg=NONE    cterm=NONE
 
 "Grey"
-hi Comment                  guifg=#888888   guibg=NONE      guisp=NONE      gui=italic      ctermfg=102     ctermbg=NONE    cterm=italic
-hi SpecialComment           guifg=#888888   guibg=NONE      guisp=NONE      gui=italic      ctermfg=102     ctermbg=NONE    cterm=italic
+hi Comment                  guifg=#888888   guibg=NONE      guisp=NONE      gui=italic      ctermfg=102     ctermbg=NONE    cterm=NONE
+hi SpecialComment           guifg=#888888   guibg=NONE      guisp=NONE      gui=italic      ctermfg=102     ctermbg=NONE    cterm=NONE
 hi Todo                     guifg=#888888   guibg=NONE      guisp=NONE      gui=bold        ctermfg=102     ctermbg=NONE    cterm=bold
 hi StatusLineNC             guifg=#888888   guibg=#191c21   guisp=#191c21   gui=italic      ctermfg=102     ctermbg=234     cterm=NONE
 hi TabLine                  guifg=#888888   guibg=#191c21   guisp=#191c21   gui=NONE        ctermfg=102     ctermbg=234     cterm=NONE
