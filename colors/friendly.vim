@@ -101,6 +101,7 @@ hi EasyMotionTarget         guifg=#85b98e   guibg=NONE      guisp=NONE      gui=
 hi EasyMotionShade          guifg=#585960   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=240     ctermbg=NONE    cterm=NONE
 hi EasyMotionTarget2First   guifg=#8184d3   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=104     ctermbg=NONE    cterm=NONE
 hi EasyMotionTarget2Second  guifg=#8184d3   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=104     ctermbg=NONE    cterm=NONE
+hi EasyMotionIncSearch      guifg=#85b98e   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=108     ctermbg=NONE    cterm=NONE
 hi link EasyMotionMoveHL Search
 
 "hi ctagsmember
