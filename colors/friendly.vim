@@ -23,6 +23,7 @@ hi PMenuSel                 guifg=#d2d2d2   guibg=#45464d   guisp=#45464d   gui=
 hi Special                  guifg=#d2d2d2   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=253     ctermbg=NONE    cterm=NONE
 hi SpecialChar              guifg=#d2d2d2   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=253     ctermbg=NONE    cterm=NONE
 hi Question                 guifg=#d2d2d2   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=253     ctermbg=NONE    cterm=NONE
+hi javascriptFuncDef        guifg=#d2d2d2   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=253     ctermbg=NONE    cterm=NONE
 
 "Grey"
 hi Comment                  guifg=#888888   guibg=NONE      guisp=NONE      gui=italic      ctermfg=102     ctermbg=NONE    cterm=NONE
@@ -60,6 +61,9 @@ hi Structure                guifg=#e0cca2   guibg=NONE      guisp=NONE      gui=
 hi Macro                    guifg=#e0cca2   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=223     ctermbg=NONE    cterm=NONE
 hi WarningMsg               guifg=#e0cca2   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=223     ctermbg=NONE    cterm=NONE
 hi javaScriptTemplateDelim  guifg=#e0cca2   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=223     ctermbg=NONE    cterm=NONE
+hi xmlTag                   guifg=#e0cca2   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=223     ctermbg=NONE    cterm=NONE
+hi xmlTagName               guifg=#e0cca2   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=223     ctermbg=NONE    cterm=NONE
+hi xmlEndTag                guifg=#e0cca2   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=223     ctermbg=NONE    cterm=NONE
 
 "Red"
 hi Error                    guifg=#d16e6d   guibg=NONE      guisp=#d16e6d   gui=NONE        ctermfg=174     ctermbg=NONE    cterm=NONE
@@ -74,9 +78,11 @@ hi BadWhitespace            guifg=NONE      guibg=#d16e6d   guisp=NONE      gui=
 hi String                   guifg=#65ac88   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=108     ctermbg=NONE    cterm=NONE
 hi Directory                guifg=#65ac88   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=108     ctermbg=NONE    cterm=NONE
 
-"Purple"
-hi Identifier               guifg=#8184d3   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=104     ctermbg=NONE    cterm=NONE
-hi Tag                      guifg=#8184d3   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=104      ctermbg=NONE   cterm=NONE
+"Orange"
+hi Identifier               guifg=#b56d2d   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=104     ctermbg=NONE    cterm=NONE
+hi Tag                      guifg=#b56d2d   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=104     ctermbg=NONE    cterm=NONE
+hi javascriptReserved       guifg=#b56d2d   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=104     ctermbg=NONE    cterm=NONE
+hi javascriptLabel          guifg=#b56d2d   guibg=NONE      guisp=NONE      gui=NONE        ctermfg=104     ctermbg=NONE    cterm=NONE
 
 "Other"
 hi CursorLine               guifg=NONE      guibg=#20262b   guisp=#222831   gui=NONE        ctermfg=NONE    ctermbg=NONE    cterm=NONE
